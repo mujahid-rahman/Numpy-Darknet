@@ -1,20 +1,13 @@
-# darknet-numpy: Make Darknet to support numpy array as input
+# Numpy Darknet: Make Darknet to support numpy array as input
 
 To prevent us from maintaining a diverged repo, we make numpy support
 as independent plugin w/o touching Darknet's source codes.
 
-Note
-
-1. The C code was wrote by [TheMikeyR](https://github.com/TheMikeyR) in [this comment](https://github.com/pjreddie/darknet/issues/289#issuecomment-342448358)
-1. I will try to send merge request to upstream. If it is accepted,
-this repository will be retired.
-
 # How to Use
 
 ```
-$ git clone https://github.com/pjreddie/darknet
-$ git clone https://github.com/DT42/darknet-numpy
-$ cd darknet-numpy
+$ git clone https://github.com/mujahid-rahman/Numpy-Darknet
+$ cd Numpy-Darknet
 $ ./patch_darknet ../darknet
 $ cd ../darknet
 $ # Manual action: Prepare tiny-yolo model
